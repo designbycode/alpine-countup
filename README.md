@@ -17,14 +17,14 @@ It supports customizable start and end values, duration, easing, prefixes, suffi
 ## Installation
 
 ```bash
-npm install alpinejs
+npm install @designbycode/apline-countup
 ````
 
 Include Alpine.js and the CountUp plugin:
 
 ```javascript
 import Alpine from 'alpinejs'
-import AlpineCountUp from './alpine-countup.js' // adjust path as needed
+import AlpineCountUp from '@designbycode/alpine-countup.js'
 
 Alpine.plugin(AlpineCountUp)
 Alpine.start()
@@ -34,8 +34,8 @@ Or via a `<script>` tag (with ES modules):
 
 ```html
 <script type="module">
-    import Alpine from 'https://unpkg.com/alpinejs@3.x.x/dist/module.esm.js'
-    import AlpineCountUp from './alpine-countup.js'
+    import Alpine from 'https://unpkg.com/alpinejs@1.x.x/dist/module.esm.js'
+    import AlpineCountUp from '@designbycode/alpine-countup.js'
 
     Alpine.plugin(AlpineCountUp)
     Alpine.start()
