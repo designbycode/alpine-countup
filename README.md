@@ -1,6 +1,16 @@
 
 # Alpine CountUp Plugin
 
+![npm (tag)](https://img.shields.io/npm/v/@designbycode/alpine-countup/latest?color=brightgreen)
+![npm](https://img.shields.io/npm/dt/@designbycode/alpine-countup)
+![npm type definitions](https://img.shields.io/npm/types/@designbycode/alpine-countup)
+![GitHub License](https://img.shields.io/github/license/designbycode/alpine-headroom)
+[![GitHub stars](https://img.shields.io/github/stars/DesignByCode/alpine-countup?style=social)](https://github.com/DesignByCode/alpine-countup/stargazers)
+
+[![NPM](https://nodei.co/npm/@designbycode/alpine-countup.png)](https://nodei.co/npm/@designbycode/alpine-countup/)
+
+
+
 A lightweight **Alpine.js directive plugin** that animates numbers counting up when they come into view, using `IntersectionObserver`.  
 It supports customizable start and end values, duration, easing, prefixes, suffixes, decimals, and tolerance for early triggering.
 
