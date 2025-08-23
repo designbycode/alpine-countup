@@ -1,6 +1,6 @@
 {
   "name": "@designbycode/alpine-countup",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "alpine countup plugin",
   "type": "module",
   "main": "./dist/index.umd.cjs",
